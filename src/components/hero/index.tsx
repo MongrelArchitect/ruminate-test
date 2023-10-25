@@ -7,7 +7,7 @@ export default function Hero() {
 
   return (
     <div 
-      className="min-h-[657px] bg-cover bg-top" 
+      className="min-h-[657px] bg-cover bg-center" 
       style={heroStyle}
     >
     </div>

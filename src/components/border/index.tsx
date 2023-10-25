@@ -1,9 +1,5 @@
-interface borderProps {
-  brown?: boolean;
-}
-
-export default function Border({ brown }: borderProps) {
+export default function Border() {
   return (
-    <div className={`bg-brand-${brown ? 'brown' : 'black'} min-h-[24px]`} />
+    <div className={`bg-brand-brown min-h-[24px]`} />
   );
 }
